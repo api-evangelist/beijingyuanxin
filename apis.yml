@@ -1,7 +1,23 @@
 aid: beijingyuanxin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beijingyuanxin.png
 name: beijingyuanxin
-description: beijingyuanxin is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: beijingyuanxin (Beijing Yuanxin) is a company surfaced as a portfolio company of qiming and
+  added to the API Evangelist network for enrichment. Its primary domain beijingyuanxin.com is served over
+  HTTPS (TLS 1.3) and 301-redirects to www.yuanxinjituan.com (Yuanxin Group). During this enrichment pass no
+  public developer program, API documentation, or machine-readable API surface (OpenAPI/AsyncAPI/GraphQL) was
+  discoverable; the domain answered TLS/DNS security probes, but its content host was not reachable from the
+  probe location. This remains a portfolio lead pending a discoverable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/beijingyuanxin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Beijing
+- China
+- Portfolio
+- Qiming
+- Stub
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beijingyuanxin-domain-security.yml
 - type: Website
   url: https://beijingyuanxin.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
